@@ -1,3 +1,8 @@
+-- Create Database
+CREATE DATABASE expenses;
+USE expenses;
+
+-- Create Table
 CREATE TABLE expenses (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     transaction_date date NOT NULL,
